@@ -8,7 +8,7 @@ const Home = props => {
                     <div className="col-sm-4">
                         <div className="card">
                             <div className="card-body">
-                                <h1>Home</h1>
+                                <h1>Hme</h1>
                             </div>
                         </div>
                     </div>
