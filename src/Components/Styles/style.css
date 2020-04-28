@@ -1,0 +1,59 @@
+.footer-cs {
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+ background-color: #343a40;
+ 
+ 
+}
+
+.theme-color {
+    color: white;
+}
+
+
+
+.sidebar-rtl-close{
+    min-height: 100%;
+    position: absolute;
+    right: 0;
+    width: 50px;
+    transition: ease 0.3s;
+    background-color: #343a40;
+    
+}
+
+
+.sidebar-rtl-open{
+    min-height: 100%;
+    position: absolute;
+    right: 0;
+    animation: "fadeIn";
+    width: 230px;
+    background-color: #343a40;
+    transition: ease 0.3s;
+   
+
+}
+
+.content-wrapper-side-close{
+    z-index: 800;
+    background-color: #ecf0f5;
+    margin-right: 50px !important;
+    transition: ease 0.3;
+    overflow: hidden;
+    min-height: 845px;
+}
+
+
+.content-wrapper-side-open{
+    z-index: 800;
+    background-color: #ecf0f5;
+    margin-right: 230px !important;
+    transition: ease 0.3s;
+    min-height: 845px;
+    overflow: hidden;
+}
+
+
+
